@@ -1,7 +1,7 @@
 import streamlit as st
-import google.generativeai as genai
 import PIL.Image
-
+import google.generativeai as genai
+from google.generativeai import types
 # Set page configuration
 st.set_page_config(page_title="📸 PersonaVision AI", layout="wide")
 
