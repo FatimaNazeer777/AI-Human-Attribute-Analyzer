@@ -179,7 +179,7 @@ if uploaded_image:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image(img, caption="📷 Uploaded Image", use_column_width=True)
+        st.image(img, caption="📷 Uploaded Image", use_container_width=True)
 
     with col2:
         st.markdown("<div class='result-container'>", unsafe_allow_html=True)
