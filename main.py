@@ -1,4 +1,5 @@
 import streamlit as st
+import PIL.Image
 import google.generativeai as genai
 from google.generativeai import types
 from PIL import Image
